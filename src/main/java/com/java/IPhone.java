@@ -62,6 +62,8 @@ public class IPhone extends CellPhone{
     public void unlock() {
         System.out.println("Unlocking using "+getSecurity());
         System.out.println("A");
+        System.out.println("B");
+
     }
 
 
