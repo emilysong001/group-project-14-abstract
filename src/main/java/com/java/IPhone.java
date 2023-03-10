@@ -50,17 +50,17 @@ public class IPhone extends CellPhone{
 
     @Override
     public void text(String number, String message) {
-        System.out.println("Sending message \""+message+"\" to "+number+" from iPhone...");
+        System.out.println("Sending a message \""+message+"\" to "+number+" from iPhone...");
     }
 
     @Override
     public void takePhoto() {
-        System.out.println("Taking a photo from iPhone {"+getType()+"} with {"+getCameraSpecs()+"}");
+        System.out.println("Taking a photo from iPhone "+getType()+" with "+getCameraSpecs());
     }
 
     @Override
     public void unlock() {
-        System.out.println("Unlocking using {"+security+"}");
+        System.out.println("Unlocking using "+security);
     }
 
 

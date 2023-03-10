@@ -64,21 +64,21 @@ public class Samsung extends CellPhone {
 
     @Override
     public void text(String number, String message) {
-        System.out.println("Sending message \""+message+"\" to "+number+" from Samsung...");
+        System.out.println("Sending a message \""+message+"\" to "+number+" from Samsung...");
     }
 
     @Override
     public void takePhoto() {
-        System.out.println("Taking a photo from Samsung {"+getType()+"} with {"+getCameraSpecs()+"}");
+        System.out.println("Taking a photo from Samsung "+getType()+" with "+getCameraSpecs());
     }
 
     @Override
     public void unlock() {
-        System.out.println("Unlocking using {"+security+"}");
+        System.out.println("Unlocking using "+security);
     }
 
     public void printExternalStorageSize(){
-        System.out.println("Samsung {"+getType()+"} has external storage of size: {"+getExternalStorage()+"}");
+        System.out.println("Samsung "+getType()+" has external storage of size: "+getExternalStorage());
     }
 
 }
