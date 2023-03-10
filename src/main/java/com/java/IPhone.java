@@ -60,7 +60,7 @@ public class IPhone extends CellPhone{
 
     @Override
     public void unlock() {
-        System.out.println("Unlocking using "+security);
+        System.out.println("Unlocking using "+getSecurity());
     }
 
 
