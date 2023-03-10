@@ -1,4 +1,4 @@
-package com.devxschool;
+package com.java;
 
 public abstract class CellPhone {
  //* Cell phone must have features like

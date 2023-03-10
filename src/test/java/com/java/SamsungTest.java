@@ -1,4 +1,4 @@
-package com.devxschool;
+package com.java;
 
 import junit.framework.TestCase;
 import org.junit.Test;

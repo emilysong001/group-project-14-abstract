@@ -1,4 +1,4 @@
-package com.devxschool;
+package com.java;
 
 // TODO CONFIGURE THE CLASS
 public class Samsung extends CellPhone {

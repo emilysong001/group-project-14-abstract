@@ -1,4 +1,4 @@
-package com.devxschool;
+package com.java;
 
 import org.junit.Test;
 
@@ -18,7 +18,7 @@ public class CellPhoneDemoTest {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
 
-        com.devxschool.CellPhoneDemo.main(new String[0]);
+        com.java.CellPhoneDemo.main(new String[0]);
 
         assertEquals("Output of printExternalStorageSize method", expected, out.toString().replace("\n", "").replace("\r", ""));
     }
