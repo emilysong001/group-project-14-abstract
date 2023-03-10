@@ -74,7 +74,7 @@ public class Samsung extends CellPhone {
 
     @Override
     public void unlock() {
-        System.out.println("Unlocking using "+security);
+        System.out.println("Unlocking using "+getSecurity());
     }
 
     public void printExternalStorageSize(){
