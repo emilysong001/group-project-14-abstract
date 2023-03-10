@@ -64,6 +64,7 @@ public class IPhone extends CellPhone{
         System.out.println("A");
         System.out.println("B");
         System.out.println("D");
+        System.out.println("E");
 
     }
 
