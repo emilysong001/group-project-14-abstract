@@ -32,11 +32,8 @@ public class IPhoneTest {
     public void callTest() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
-
         iPhone.call("911");
-
         String expected = "Calling to 911 from iPhone...";
-
         TestCase.assertEquals("Output of call method", expected, out.toString().replace("\n", "").replace("\r", ""));
     }
 
@@ -44,11 +41,8 @@ public class IPhoneTest {
     public void textTest() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
-
         iPhone.text("911", "A");
-
         String expected = "Sending a message \"A\" to 911 from iPhone...";
-
         TestCase.assertEquals("Output of text method", expected, out.toString().replace("\n", "").replace("\r", ""));
     }
 
@@ -56,11 +50,8 @@ public class IPhoneTest {
     public void takePhotoTest() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
-
         iPhone.takePhoto();
-
         String expected = "Taking a photo from iPhone 11 with 12 MP";
-
         TestCase.assertEquals("Output of takePhoto method", expected, out.toString().replace("\n", "").replace("\r", ""));
     }
 
@@ -68,11 +59,8 @@ public class IPhoneTest {
     public void unlockTest() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
-
         iPhone.unlock();
-
         String expected = "Unlocking using FID";
-
         TestCase.assertEquals("Output of unlock method", expected, out.toString().replace("\n", "").replace("\r", ""));
 
     }
